@@ -192,12 +192,12 @@ object Huffman {
   def decode(tree: CodeTree, bits: List[Bit]): List[Char] = {
 
     def decodeInner(subTree: CodeTree, subBits: List[Bit], accu: List[Char]): List[Char] = subBits match {
-      //Last bit
+      //Empty Bit
       case Nil => subTree match {
         case l: Leaf => accu :+ l.char
         case f: Fork => throw new Exception("Error: logic exception.")
       }
-      //Not Last bit
+      //Bit
       case h :: tail => subTree match {
         case f: Fork if (h == 0) => decodeInner(f.left, tail, accu)
         case f: Fork if (h == 1) => decodeInner(f.right, tail, accu)
@@ -237,31 +237,32 @@ object Huffman {
    */
   def encode(tree: CodeTree)(text: List[Char]): List[Bit] = {
 
-    var s = List[Bit]();
+    var result = List[Bit]()
+    var accu = List[Bit]()
+    
     def encodeInner(subTree: CodeTree, subText: List[Char]): Boolean = subText match {
-      case Nil => subTree match {
-        case l: Leaf => accu :+ l.char
-        case f: Fork => throw new Exception("Error: logic exception.")
-      }
+      case Nil => true
       case h :: tail => subTree match {
         case f: Fork => {
-          if (encodeInner(f.left, tail)) {
-            s = s :+ 0
-            true
-          } else if (encodeInner(f.right, tail)) {
-            s = s :+ 1
-            true
-          } else false
+          if (encodeInner(f.left, subText)) { accu = 0 +: accu; true }
+          else if (encodeInner(f.right, subText)) { accu = 1 +: accu; true }
+          else false
         }
-        case l: Leaf => l.char == h
+        case l: Leaf if (l.char == h) => true; 
+        case l: Leaf if (l.char != h) => false
         case _ => throw new Exception("Class is not defined exception.")
 
       }
       case _ => throw new Exception("empty char list exception.")
     }
 
-    encodeInner(tree, text);
-    return s;
+    text.foreach { x => { 
+      encodeInner(tree, List(x))
+      result = result ::: accu
+      accu = List[Bit]()
+      }}
+    
+    result
   }
   // Part 4b: Encoding using code table
 
@@ -272,7 +273,6 @@ object Huffman {
    * the code table `table`.
    */
   def codeBits(table: CodeTable)(char: Char): List[Bit] = {
-    println(table.length + "/t" + table.find(_._1 == char))
     table.find(_._1 == char).get._2
   }
 
