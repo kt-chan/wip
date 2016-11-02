@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mUpdating {file:/C:/Users/chanc10/Downloads/scala/example/}root...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/C:/Users/KT/Downloads/scala/example/}root...[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
@@ -7,11 +7,15 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.7 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@ce0d2b6[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5d6aeba3[0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.7 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@ce0d2b6[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\chanc10\.ivy2\local\org.scala-lang\scala-library\2.11.7\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@5d6aeba3[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\KT\.ivy2\local\org.scala-lang\scala-library\2.11.7\ivys\ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang#scala-library;2.11.7[0m
+[0m[[0mdebug[0m] [0m		tried C:\doesnotexist\repository\org.scala-lang\scala-library\2.11.7\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-launcher-local: no ivy file found for org.scala-lang#scala-library;2.11.7[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\KT\Documents\library\activator\repository\org.scala-lang\scala-library\2.11.7\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for org.scala-lang#scala-library;2.11.7[0m
 [0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom[0m
 [0m[[0mdebug[0m] [0m	public: found md file for org.scala-lang#scala-library;2.11.7[0m
 [0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom (2.11.7)[0m
@@ -19,8 +23,10 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.7!scala-library.pom(pom.original) (1383ms)[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\chanc10\.ivy2\local\org.scala-lang\scala-library\2.11.7\jars\scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.7!scala-library.pom(pom.original) (1344ms)[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\KT\.ivy2\local\org.scala-lang\scala-library\2.11.7\jars\scala-library.jar[0m
+[0m[[0mdebug[0m] [0m		tried C:\doesnotexist\repository\org.scala-lang\scala-library\2.11.7\jars\scala-library.jar[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\KT\Documents\library\activator\repository\org.scala-lang\scala-library\2.11.7\jars\scala-library.jar[0m
 [0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.7 in public[0m
 [0m[[0mdebug[0m] [0m	[2.11.7] org.scala-lang#scala-library;2.11.7[0m
@@ -32,19 +38,15 @@
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.11;2.2.4 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.scalatest#scalatest_2.11;2.2.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scalatest#scalatest_2.11;2.2.4 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\chanc10\.ivy2\local\org.scalatest\scalatest_2.11\2.2.4\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\KT\.ivy2\local\org.scalatest\scalatest_2.11\2.2.4\ivys\ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for org.scalatest#scalatest_2.11;2.2.4[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.scalatest#scalatest_2.11;2.2.4[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.pom (2.2.4)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scalatest#scalatest_2.11;2.2.4!scalatest_2.11.pom(pom.original) (1413ms)[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\chanc10\.ivy2\local\org.scalatest\scalatest_2.11\2.2.4\bundles\scalatest_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.jar[0m
-[0m[[0mdebug[0m] [0m	found org.scalatest#scalatest_2.11;2.2.4 in public[0m
+[0m[[0mdebug[0m] [0m		tried C:\doesnotexist\repository\org.scalatest\scalatest_2.11\2.2.4\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-launcher-local: no ivy file found for org.scalatest#scalatest_2.11;2.2.4[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\KT\Documents\library\activator\repository\org.scalatest\scalatest_2.11\2.2.4\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: found md file for org.scalatest#scalatest_2.11;2.2.4[0m
+[0m[[0mdebug[0m] [0m		=> C:\Users\KT\Documents\library\activator\repository\org.scalatest\scalatest_2.11\2.2.4\ivys\ivy.xml (2.2.4)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalatest#scalatest_2.11;2.2.4!ivy.xml(ivy.original)[0m
+[0m[[0mdebug[0m] [0m	found org.scalatest#scalatest_2.11;2.2.4 in activator-local[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->master(compile)][0m
@@ -54,8 +56,17 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.2[0m
-[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.11.2 in sbt-chain[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\KT\.ivy2\local\org.scala-lang\scala-reflect\2.11.2\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang#scala-reflect;2.11.2[0m
+[0m[[0mdebug[0m] [0m		tried C:\doesnotexist\repository\org.scala-lang\scala-reflect\2.11.2\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-launcher-local: no ivy file found for org.scala-lang#scala-reflect;2.11.2[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\KT\Documents\library\activator\repository\org.scala-lang\scala-reflect\2.11.2\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: found md file for org.scala-lang#scala-reflect;2.11.2[0m
+[0m[[0mdebug[0m] [0m		=> C:\Users\KT\Documents\library\activator\repository\org.scala-lang\scala-reflect\2.11.2\ivys\ivy.xml (2.11.2)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.2!ivy.xml(ivy.original)[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.11.2 in activator-local[0m
 [0m[[0mdebug[0m] [0m	[2.11.2] org.scala-lang#scala-reflect;2.11.2[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
@@ -94,8 +105,12 @@
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\chanc10\.ivy2\local\org.scala-lang.modules\scala-parser-combinators_2.11\1.0.4\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\KT\.ivy2\local\org.scala-lang.modules\scala-parser-combinators_2.11\1.0.4\ivys\ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4[0m
+[0m[[0mdebug[0m] [0m		tried C:\doesnotexist\repository\org.scala-lang.modules\scala-parser-combinators_2.11\1.0.4\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-launcher-local: no ivy file found for org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\KT\Documents\library\activator\repository\org.scala-lang.modules\scala-parser-combinators_2.11\1.0.4\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4[0m
 [0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.pom[0m
 [0m[[0mdebug[0m] [0m	public: found md file for org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4[0m
 [0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.pom (1.0.4)[0m
@@ -103,8 +118,10 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.pom(pom.original) (1302ms)[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\chanc10\.ivy2\local\org.scala-lang.modules\scala-parser-combinators_2.11\1.0.4\bundles\scala-parser-combinators_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.pom(pom.original) (921ms)[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\KT\.ivy2\local\org.scala-lang.modules\scala-parser-combinators_2.11\1.0.4\bundles\scala-parser-combinators_2.11.jar[0m
+[0m[[0mdebug[0m] [0m		tried C:\doesnotexist\repository\org.scala-lang.modules\scala-parser-combinators_2.11\1.0.4\bundles\scala-parser-combinators_2.11.jar[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\KT\Documents\library\activator\repository\org.scala-lang.modules\scala-parser-combinators_2.11\1.0.4\bundles\scala-parser-combinators_2.11.jar[0m
 [0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime][0m
@@ -223,56 +240,31 @@
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: junit#junit;4.10 {test=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving junit#junit;4.10 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: junit#junit;4.10 {test=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\chanc10\.ivy2\local\junit\junit\4.10\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\KT\.ivy2\local\junit\junit\4.10\ivys\ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for junit#junit;4.10[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for junit#junit;4.10[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.pom (4.10)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] junit#junit;4.10!junit.pom(pom.original) (1322ms)[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\chanc10\.ivy2\local\junit\junit\4.10\jars\junit.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.jar[0m
-[0m[[0mdebug[0m] [0m	found junit#junit;4.10 in public[0m
+[0m[[0mdebug[0m] [0m		tried C:\doesnotexist\repository\junit\junit\4.10\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-launcher-local: no ivy file found for junit#junit;4.10[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\KT\Documents\library\activator\repository\junit\junit\4.10\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: found md file for junit#junit;4.10[0m
+[0m[[0mdebug[0m] [0m		=> C:\Users\KT\Documents\library\activator\repository\junit\junit\4.10\ivys\ivy.xml (4.10)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] junit#junit;4.10!ivy.xml(ivy.original)[0m
+[0m[[0mdebug[0m] [0m	found junit#junit;4.10 in activator-local[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.hamcrest#hamcrest-core;1.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.hamcrest#hamcrest-core;1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.hamcrest#hamcrest-core;1.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0minfo[0m] [0mResolving org.hamcrest#hamcrest-core;1.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.hamcrest#hamcrest-core;1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\chanc10\.ivy2\local\org.hamcrest\hamcrest-core\1.1\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.hamcrest#hamcrest-core;1.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\KT\.ivy2\local\org.hamcrest\hamcrest-core\1.1\ivys\ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for org.hamcrest#hamcrest-core;1.1[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.hamcrest#hamcrest-core;1.1[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom (1.1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.hamcrest#hamcrest-core;1.1!hamcrest-core.pom(pom.original) (1309ms)[0m
-[0m[[0minfo[0m] [0mResolving org.hamcrest#hamcrest-parent;1.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.hamcrest#hamcrest-parent;1.1 {}[0m
-[0m[[0minfo[0m] [0mResolving org.hamcrest#hamcrest-parent;1.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.hamcrest#hamcrest-parent;1.1 {}[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\chanc10\.ivy2\local\org.hamcrest\hamcrest-parent\1.1\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.hamcrest#hamcrest-parent;1.1[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.hamcrest#hamcrest-parent;1.1[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom (1.1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.hamcrest#hamcrest-parent;1.1!hamcrest-parent.pom(pom.original) (1351ms)[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\chanc10\.ivy2\local\org.hamcrest\hamcrest-parent\1.1\jars\hamcrest-parent.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\chanc10\.ivy2\local\org.hamcrest\hamcrest-core\1.1\jars\hamcrest-core.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar[0m
-[0m[[0mdebug[0m] [0m	found org.hamcrest#hamcrest-core;1.1 in public[0m
+[0m[[0mdebug[0m] [0m		tried C:\doesnotexist\repository\org.hamcrest\hamcrest-core\1.1\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-launcher-local: no ivy file found for org.hamcrest#hamcrest-core;1.1[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\KT\Documents\library\activator\repository\org.hamcrest\hamcrest-core\1.1\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: found md file for org.hamcrest#hamcrest-core;1.1[0m
+[0m[[0mdebug[0m] [0m		=> C:\Users\KT\Documents\library\activator\repository\org.hamcrest\hamcrest-core\1.1\ivys\ivy.xml (1.1)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.1!ivy.xml(ivy.original)[0m
+[0m[[0mdebug[0m] [0m	found org.hamcrest#hamcrest-core;1.1 in activator-local[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->compile][0m
@@ -442,7 +434,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [runtime->compile][0m
@@ -464,8 +456,12 @@
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.7 {scala-tool=[default, optional(default)]}[0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.11.7 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.7 {scala-tool=[default, optional(default)]}[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\chanc10\.ivy2\local\org.scala-lang\scala-compiler\2.11.7\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\KT\.ivy2\local\org.scala-lang\scala-compiler\2.11.7\ivys\ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang#scala-compiler;2.11.7[0m
+[0m[[0mdebug[0m] [0m		tried C:\doesnotexist\repository\org.scala-lang\scala-compiler\2.11.7\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-launcher-local: no ivy file found for org.scala-lang#scala-compiler;2.11.7[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\KT\Documents\library\activator\repository\org.scala-lang\scala-compiler\2.11.7\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for org.scala-lang#scala-compiler;2.11.7[0m
 [0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.pom[0m
 [0m[[0mdebug[0m] [0m	public: found md file for org.scala-lang#scala-compiler;2.11.7[0m
 [0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.pom (2.11.7)[0m
@@ -473,8 +469,10 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.11.7!scala-compiler.pom(pom.original) (1292ms)[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\chanc10\.ivy2\local\org.scala-lang\scala-compiler\2.11.7\jars\scala-compiler.jar[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.11.7!scala-compiler.pom(pom.original) (1308ms)[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\KT\.ivy2\local\org.scala-lang\scala-compiler\2.11.7\jars\scala-compiler.jar[0m
+[0m[[0mdebug[0m] [0m		tried C:\doesnotexist\repository\org.scala-lang\scala-compiler\2.11.7\jars\scala-compiler.jar[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\KT\Documents\library\activator\repository\org.scala-lang\scala-compiler\2.11.7\jars\scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.jar[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.11.7 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->runtime][0m
@@ -491,8 +489,12 @@
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.7 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\chanc10\.ivy2\local\org.scala-lang\scala-reflect\2.11.7\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\KT\.ivy2\local\org.scala-lang\scala-reflect\2.11.7\ivys\ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang#scala-reflect;2.11.7[0m
+[0m[[0mdebug[0m] [0m		tried C:\doesnotexist\repository\org.scala-lang\scala-reflect\2.11.7\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-launcher-local: no ivy file found for org.scala-lang#scala-reflect;2.11.7[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\KT\Documents\library\activator\repository\org.scala-lang\scala-reflect\2.11.7\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for org.scala-lang#scala-reflect;2.11.7[0m
 [0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.pom[0m
 [0m[[0mdebug[0m] [0m	public: found md file for org.scala-lang#scala-reflect;2.11.7[0m
 [0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.pom (2.11.7)[0m
@@ -500,8 +502,10 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.7!scala-reflect.pom(pom.original) (1335ms)[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\chanc10\.ivy2\local\org.scala-lang\scala-reflect\2.11.7\jars\scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.7!scala-reflect.pom(pom.original) (1453ms)[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\KT\.ivy2\local\org.scala-lang\scala-reflect\2.11.7\jars\scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m		tried C:\doesnotexist\repository\org.scala-lang\scala-reflect\2.11.7\jars\scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\KT\Documents\library\activator\repository\org.scala-lang\scala-reflect\2.11.7\jars\scala-reflect.jar[0m
 [0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.jar[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.11.7 in public[0m
 [0m[[0mdebug[0m] [0m	[2.11.7] org.scala-lang#scala-reflect;2.11.7[0m
@@ -517,8 +521,12 @@
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-xml_2.11;1.0.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\chanc10\.ivy2\local\org.scala-lang.modules\scala-xml_2.11\1.0.4\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\KT\.ivy2\local\org.scala-lang.modules\scala-xml_2.11\1.0.4\ivys\ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang.modules#scala-xml_2.11;1.0.4[0m
+[0m[[0mdebug[0m] [0m		tried C:\doesnotexist\repository\org.scala-lang.modules\scala-xml_2.11\1.0.4\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-launcher-local: no ivy file found for org.scala-lang.modules#scala-xml_2.11;1.0.4[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\KT\Documents\library\activator\repository\org.scala-lang.modules\scala-xml_2.11\1.0.4\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for org.scala-lang.modules#scala-xml_2.11;1.0.4[0m
 [0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.pom[0m
 [0m[[0mdebug[0m] [0m	public: found md file for org.scala-lang.modules#scala-xml_2.11;1.0.4[0m
 [0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.pom (1.0.4)[0m
@@ -526,8 +534,10 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.pom(pom.original) (1320ms)[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\chanc10\.ivy2\local\org.scala-lang.modules\scala-xml_2.11\1.0.4\bundles\scala-xml_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.pom(pom.original) (1095ms)[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\KT\.ivy2\local\org.scala-lang.modules\scala-xml_2.11\1.0.4\bundles\scala-xml_2.11.jar[0m
+[0m[[0mdebug[0m] [0m		tried C:\doesnotexist\repository\org.scala-lang.modules\scala-xml_2.11\1.0.4\bundles\scala-xml_2.11.jar[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\KT\Documents\library\activator\repository\org.scala-lang.modules\scala-xml_2.11\1.0.4\bundles\scala-xml_2.11.jar[0m
 [0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.jar[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-xml_2.11;1.0.4 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile(*)][0m
@@ -564,8 +574,30 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->jline#jline;2.12.1 [optional->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving jline#jline;2.12.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: jline#jline;2.12.1 {optional=[compile(*), master(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: jline#jline;2.12.1[0m
-[0m[[0mdebug[0m] [0m	found jline#jline;2.12.1 in sbt-chain[0m
+[0m[[0minfo[0m] [0mResolving jline#jline;2.12.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: jline#jline;2.12.1 {optional=[compile(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\KT\.ivy2\local\jline\jline\2.12.1\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for jline#jline;2.12.1[0m
+[0m[[0mdebug[0m] [0m		tried C:\doesnotexist\repository\jline\jline\2.12.1\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-launcher-local: no ivy file found for jline#jline;2.12.1[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\KT\Documents\library\activator\repository\jline\jline\2.12.1\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for jline#jline;2.12.1[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for jline#jline;2.12.1[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.pom (2.12.1)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] jline#jline;2.12.1!jline.pom(pom.original) (1589ms)[0m
+[0m[[0minfo[0m] [0mResolving org.sonatype.oss#oss-parent;7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\KT\.ivy2\local\jline\jline\2.12.1\jars\jline.jar[0m
+[0m[[0mdebug[0m] [0m		tried C:\doesnotexist\repository\jline\jline\2.12.1\jars\jline.jar[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\KT\Documents\library\activator\repository\jline\jline\2.12.1\jars\jline.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.jar[0m
+[0m[[0mdebug[0m] [0m	found jline#jline;2.12.1 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->jline#jline;2.12.1 [optional->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [scala-tool->default][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [scala-tool->runtime][0m
@@ -579,65 +611,59 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.7!scala-library.jar (62682ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scalatest#scalatest_2.11;2.2.4!scalatest_2.11.jar(bundle) (60001ms)[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.7!scala-library.jar (85761ms)[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\KT\Documents\library\activator\repository\org.scalatest\scalatest_2.11\2.2.4\bundles\scalatest_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalatest#scalatest_2.11;2.2.4!scalatest_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar[0m
 [0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar ...[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle) (5765ms)[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle) (7854ms)[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\KT\Documents\library\activator\repository\org.scala-lang\scala-reflect\2.11.2\jars\scala-reflect.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.2!scala-reflect.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(bundle)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] junit#junit;4.10!junit.jar (2621ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.hamcrest#hamcrest-core;1.1!hamcrest-core.jar (1512ms)[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\KT\Documents\library\activator\repository\junit\junit\4.10\jars\junit.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] junit#junit;4.10!junit.jar[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\KT\Documents\library\activator\repository\org.hamcrest\hamcrest-core\1.1\jars\hamcrest-core.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.1!hamcrest-core.jar[0m
 [0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.jar[0m
 [0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.jar ...[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.jar[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.jar.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar (88976ms)[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar (177508ms)[0m
 [0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.jar[0m
 [0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.jar ...[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.jar[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.jar.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar (35472ms)[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar (56518ms)[0m
 [0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.jar[0m
 [0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.jar ...[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.jar[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.jar.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle) (5774ms)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.12.1!jline.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 20622ms :: artifacts dl 262826ms[0m
-[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT compile produced in C:\Users\chanc10\Downloads\scala\example\target\resolution-cache\reports\progfun1-example-progfun1-example_2.11-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT runtime produced in C:\Users\chanc10\Downloads\scala\example\target\resolution-cache\reports\progfun1-example-progfun1-example_2.11-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT test produced in C:\Users\chanc10\Downloads\scala\example\target\resolution-cache\reports\progfun1-example-progfun1-example_2.11-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT provided produced in C:\Users\chanc10\Downloads\scala\example\target\resolution-cache\reports\progfun1-example-progfun1-example_2.11-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT optional produced in C:\Users\chanc10\Downloads\scala\example\target\resolution-cache\reports\progfun1-example-progfun1-example_2.11-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT compile-internal produced in C:\Users\chanc10\Downloads\scala\example\target\resolution-cache\reports\progfun1-example-progfun1-example_2.11-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT runtime-internal produced in C:\Users\chanc10\Downloads\scala\example\target\resolution-cache\reports\progfun1-example-progfun1-example_2.11-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT test-internal produced in C:\Users\chanc10\Downloads\scala\example\target\resolution-cache\reports\progfun1-example-progfun1-example_2.11-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT plugin produced in C:\Users\chanc10\Downloads\scala\example\target\resolution-cache\reports\progfun1-example-progfun1-example_2.11-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT sources produced in C:\Users\chanc10\Downloads\scala\example\target\resolution-cache\reports\progfun1-example-progfun1-example_2.11-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT docs produced in C:\Users\chanc10\Downloads\scala\example\target\resolution-cache\reports\progfun1-example-progfun1-example_2.11-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT pom produced in C:\Users\chanc10\Downloads\scala\example\target\resolution-cache\reports\progfun1-example-progfun1-example_2.11-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT scala-tool produced in C:\Users\chanc10\Downloads\scala\example\target\resolution-cache\reports\progfun1-example-progfun1-example_2.11-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (20622ms resolve - 262826ms download)[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle) (13781ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] jline#jline;2.12.1!jline.jar (5091ms)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 17260ms :: artifacts dl 352387ms[0m
+[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT compile produced in C:\Users\KT\Downloads\scala\example\target\resolution-cache\reports\progfun1-example-progfun1-example_2.11-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT runtime produced in C:\Users\KT\Downloads\scala\example\target\resolution-cache\reports\progfun1-example-progfun1-example_2.11-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT test produced in C:\Users\KT\Downloads\scala\example\target\resolution-cache\reports\progfun1-example-progfun1-example_2.11-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT provided produced in C:\Users\KT\Downloads\scala\example\target\resolution-cache\reports\progfun1-example-progfun1-example_2.11-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT optional produced in C:\Users\KT\Downloads\scala\example\target\resolution-cache\reports\progfun1-example-progfun1-example_2.11-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT compile-internal produced in C:\Users\KT\Downloads\scala\example\target\resolution-cache\reports\progfun1-example-progfun1-example_2.11-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT runtime-internal produced in C:\Users\KT\Downloads\scala\example\target\resolution-cache\reports\progfun1-example-progfun1-example_2.11-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT test-internal produced in C:\Users\KT\Downloads\scala\example\target\resolution-cache\reports\progfun1-example-progfun1-example_2.11-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT plugin produced in C:\Users\KT\Downloads\scala\example\target\resolution-cache\reports\progfun1-example-progfun1-example_2.11-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT sources produced in C:\Users\KT\Downloads\scala\example\target\resolution-cache\reports\progfun1-example-progfun1-example_2.11-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT docs produced in C:\Users\KT\Downloads\scala\example\target\resolution-cache\reports\progfun1-example-progfun1-example_2.11-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT pom produced in C:\Users\KT\Downloads\scala\example\target\resolution-cache\reports\progfun1-example-progfun1-example_2.11-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT scala-tool produced in C:\Users\KT\Downloads\scala\example\target\resolution-cache\reports\progfun1-example-progfun1-example_2.11-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (17260ms resolve - 352387ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
